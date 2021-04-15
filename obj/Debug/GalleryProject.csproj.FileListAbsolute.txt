@@ -57,3 +57,12 @@ C:\Users\Casper\source\repos\GalleryWebSite\GalleryProject\obj\Debug\GalleryProj
 C:\Users\Casper\source\repos\GalleryWebSite\GalleryProject\obj\Debug\GalleryProject.csproj.CopyComplete
 C:\Users\Casper\source\repos\GalleryWebSite\GalleryProject\obj\Debug\GalleryProject.dll
 C:\Users\Casper\source\repos\GalleryWebSite\GalleryProject\obj\Debug\GalleryProject.pdb
+C:\Users\Casper\source\repos\GalleryProject\obj\Debug\GalleryProject.dll
+C:\Users\Casper\source\repos\GalleryProject\obj\Debug\GalleryProject.pdb
+C:\Users\Casper\source\repos\GalleryProject\bin\GalleryProject.dll.config
+C:\Users\Casper\source\repos\GalleryProject\bin\GalleryProject.dll
+C:\Users\Casper\source\repos\GalleryProject\bin\GalleryProject.pdb
+C:\Users\Casper\source\repos\GalleryProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Casper\source\repos\GalleryProject\obj\Debug\GalleryProject.csprojAssemblyReference.cache
+C:\Users\Casper\source\repos\GalleryProject\obj\Debug\GalleryProject.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\GalleryProject\obj\Debug\GalleryProject.csproj.CopyComplete
