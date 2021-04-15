@@ -27,6 +27,13 @@ namespace GalleryProject
 
                 Response.Redirect("~/UpdateForm.aspx?Id=" + IdItem.ToString());
             }
+            else if (e.CommandName.ToString() == "Detay")
+            {
+                var IdItem = e.CommandArgument;
+
+                Response.Redirect("~/CarDetails.aspx?Id=" + IdItem.ToString());
+
+            }
             else
             {
                 var IdItem = e.CommandArgument;
@@ -35,7 +42,7 @@ namespace GalleryProject
         }
         private void CarInformation()
         {
-            string CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
+             string CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
             using (SqlConnection con = new SqlConnection(CS))
             {
 
@@ -73,8 +80,8 @@ namespace GalleryProject
         protected void BtnKayit_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/NewRegistry.aspx");
-        }        
-    
+        }
+
     }
 
 

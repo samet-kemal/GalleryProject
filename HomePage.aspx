@@ -36,9 +36,9 @@
          <div class="col" >
     <div class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-    <div class="carousel-item active">
+    <di1v class="carousel-item active">
                     <img class="d-block w-100" src="Images/Niva.jpg" alt="First slide" />
-  </div>
+  </di1v>
       <div class="carousel-item">
                     <img class="d-block w-100" src="Images/kaplumbaga.jpeg" alt="Second slide" />
   </div>
@@ -83,6 +83,11 @@
                             <th scope="col">
                                 <b>Plaka </b>
                             </th>
+                
+                            <th scope="col">
+                                <b>Araç Detayı</b>
+                            </th>
+
                             <th scope="col">
                                 <b>Düzenle </b>
                             </th>
@@ -113,6 +118,10 @@
                         </td>
                         <td>
                             <%# DataBinder.Eval(Container.DataItem,"Plaka")%>
+                        </td>
+                
+                        <td>
+                            <asp:Button ID="BtnDetay" runat="server" class="btn btn-primary" data-toggle="button" BackColor="Blue" Text="Detay" CommandName="Detay"  CommandArgument='<%# Eval("Id") %>'  />
                         </td>
                         <td>
                             <asp:Button ID="BtnDuzenle" runat="server" class="btn btn-primary" data-toggle="button" BackColor="Orange" Text="Düzenle" CommandName="Duzenle"  CommandArgument='<%# Eval("Id") %>' />
